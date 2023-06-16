@@ -1,23 +1,23 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import React from 'react';
+import Head from 'next/head';
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <iframe
+          src="https://gamma.app/embed/ympubssf7hxlvac"
+          style={{ width: '100%', height: '100vh', border: 'none' }}
+          allowFullScreen
+        ></iframe>
       </main>
-
-      <Footer />
     </div>
-  )
-}
+  );
+};
+
+export default HomePage;
