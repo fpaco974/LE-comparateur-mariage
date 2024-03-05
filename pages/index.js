@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>le comparateur mariage</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
