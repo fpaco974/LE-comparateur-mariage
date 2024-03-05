@@ -11,7 +11,7 @@ const HomePage = () => {
 
       <main>
         <iframe
-          src=<iframe src="https://gamma.app/embed/57zaybrpgn837x1" 
+          src="https://gamma.app/embed/57zaybrpgn837x1" 
           style={{ width: '100%', height: '100vh', border: 'none' }}
           allowFullScreen
         ></iframe>
