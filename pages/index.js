@@ -11,7 +11,7 @@ const HomePage = () => {
 
       <main>
         <iframe
-          src="https://gamma.app/embed/57zaybrpgn837x1" 
+          src="https://le-comparateur-mariage.net/" 
           style={{ width: '100%', height: '100vh', border: 'none' }}
           allow="FullScreen"
         ></iframe>
