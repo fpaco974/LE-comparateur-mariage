@@ -6,4 +6,4 @@
   CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
   TERM = "xterm"
 
-  npm uninstall -D netlify-plugin-cypress
+  command = "npm uninstall -D netlify-plugin-cypress"
