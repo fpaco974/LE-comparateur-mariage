@@ -2,6 +2,15 @@ import React from 'react';
 import Head from 'next/head'
 
 const HomePage = () => {
+  React.useEffect(() => {
+    const iframe = document.getElementById('my-iframe');
+    iframe.src = "https://www.le-comparateur-mariage.net";
+ iframe.addEventListener('touchstart', function(e){
+      e.preventDefault();
+      console.log('Événement tactile détecté !');
+    });
+  }, []);
+  
   return (
     <div> 
       <Head>
@@ -13,7 +22,7 @@ const HomePage = () => {
 
       <main>
         <iframe
-          src="https://www.le-comparateur-mariage.net" 
+          id="my-iframe" 
           style={{ width: '100%', height: '100vh', border: 'none' }}
           allow="FullScreen"
         ></iframe>
